@@ -1,0 +1,44 @@
+body{
+  background-color: #E7AB79;
+}
+hr{
+border-color: grey;
+border-style: none;
+border-top-style: dotted;
+border-width: 7px;
+width: 5%;
+}
+
+a:hover{
+  background-color: gold;
+}
+
+/***************************CLASS SELECTORS***********************/
+
+.container{
+  width: 90%;
+  padding: 20px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.box{
+  width: 500px;
+  margin: 0 10px;
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, 1.5);
+  transition: 1s;
+}
+.box img{
+  display: block;
+  width: 100%;
+  border-radius: 15px;
+  }
+  .box:hover{
+    transform: scale(1.3);
+    z-index: 2;
+  }
+  .circular{
+    border-radius: 20px;
+    box-shadow:0 0 20px 2px  rgba(0, 0, 0, 0.5);
+  }
